@@ -45,7 +45,7 @@ Vor allem Boot Messages usw bekommt man auf die Art nicht angezeigt.
 
 Um vernünftige Ausgaben zu bekommen, habe ich den internen UART an einen USB-TTL Serial Converter angeschlossen.
 
-PIN20: TX vom Adapter
+PIN20: TX vom Adapter   
 PIN21: RX vom Adapter
 
 Die Darstellung auf dem Bild stimmt nur dann, wenn die Anschlüsse des Adapters vertauscht sind.
