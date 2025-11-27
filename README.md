@@ -1,5 +1,11 @@
 # ESP32-C3-Super-Mini
 
+## Original Anleitung (YouTube) und Sketch
+
+[YouTube: WLAN Empfang am ESP32 C3 super mini mit einfacher Modifikation verbessern, Tips zur Optimierung.](https://www.youtube.com/watch?v=LwBawTlJZ4s)
+
+[Homepage: Sketch WLAN Test](https://goesenswelt.de/wlan/)
+
 
 ## ESP32-C3-Super-Mini WiFi-Test
 
@@ -16,12 +22,6 @@ Funktioniert auch in der Arduino IDE  - ist aber umständlicher.
 
 <img src="/images/IMG_20251127_103928.jpg" height="400px" title="Test Aufbau 2"> 
 
-
-## Original Anleitung (YouTube) und Sketch
-
-[YouTube: WLAN Empfang am ESP32 C3 super mini mit einfacher Modifikation verbessern, Tips zur Optimierung.](https://www.youtube.com/watch?v=LwBawTlJZ4s)
-
-[Homepage: Sketch WLAN Test](https://goesenswelt.de/wlan/)
 
 ## Probleme mit WiFi
 
