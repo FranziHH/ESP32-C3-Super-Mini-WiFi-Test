@@ -21,3 +21,30 @@ Es gibt einige Boards, bei denen das WiFi gar nicht funktioniert.
 Hier gibt es einen Lösungsansatz.
 
 [Keine WLAN-Verbindung mit ESP32-C3 Super Mini](https://forum.arduino.cc/t/no-wifi-connect-with-esp32-c3-super-mini/1324046/22)
+
+
+## Serial Port
+
+Ich habe es nicht zuverlässig hinbekommen, Ausgaben im seriellen Monitor zu bekommen.
+Vor allem Boot Messages usw bekommt man auf die Art nicht angezeigt.
+
+Um vernünftige Ausgaben zu bekommen, habe ich den internen UART an einen USB-TTL Serial Converter angeschlossen.
+
+PIN20: TX vom Adapter
+PIN21: RX vom Adapter
+
+Die Darstellung auf dem Bild stimmt nur dann, wenn die Anschlüsse des Adapters vertauscht sind.
+Falls keine Kommunikation möglich ist, versuchsweise diese beiden Anschlüsse vertauschen.
+
+Auch das Flashen der Firmware ist über diesen Anschluss möglich
+
+[AZ-Delivery: USB auf Seriell Adapter mit CH340](https://www.az-delivery.de/products/usb-auf-seriell-adapter-mit-ch340)
+
+<img src="/images/IMG_20250510_152911.png" height="400px" title="USB auf Seriell Adapter"> 
+
+#### Produktbilder vom Verkäufer
+
+<img src="/images/ESP32-C3-Super-Mini-Pinout-f.png" height="400px" title="ESP32 C3 Super Mini Pinout"> 
+
+<img src="/images/ESP32-C3-Super-Mini-Serial-Port.png" height="400px" title="ESP32 C3 Super Mini Serial Port">
+
