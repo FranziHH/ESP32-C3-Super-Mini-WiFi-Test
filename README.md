@@ -2,6 +2,9 @@
 
 ## Original Anleitung (YouTube) und Sketch
 
+Anmerkung: Ich habe den Hinweis auf die Unbenutzbarkeit des Sketches und den Hinweis auf dieses Repo als Kommentar unter dem Video hinterlassen.   
+Dieser Kommentar wurde postwendend entfernt ....
+
 [YouTube: WLAN Empfang am ESP32 C3 super mini mit einfacher Modifikation verbessern, Tips zur Optimierung.](https://www.youtube.com/watch?v=LwBawTlJZ4s)
 
 [Homepage: Sketch WLAN Test](https://goesenswelt.de/wlan/)
